@@ -1,0 +1,59 @@
+/* Style for Hero Section */
+.jumbotron {
+    background:(to right, #f07c39, #ff9e1a);
+    color: white;
+    padding: 80px 0;
+}
+
+.jumbotron .btn {
+    background-color: #f07c39;
+    border-color: #f07c39;
+}
+
+.jumbotron .btn:hover {
+    background-color: #ff9e1a;
+    border-color: #ff9e1a;
+}
+
+/* Cards for Dance Forms */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Contact Form */
+form .form-control {
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+form button {
+    border-radius: 0;
+    background-color: #f07c39;
+    border: none;
+}
+form button:hover {
+    background-color: #ff9e1a;
+}
